@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.atitienei_daniel.reeme">
+    package="com.messir.REminder">
 
     <application
-        android:name="com.atitienei_daniel.ReemeApplication"
+        android:name="com.messir.ReemeApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
             android:value="@string/admob_id"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.messir.REminder.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -36,7 +36,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".data.receiver.AlarmReceiver" />
+        <receiver android:name="com.messir.REminder.data.receiver.AlarmReceiver" />
 
     </application>
 
